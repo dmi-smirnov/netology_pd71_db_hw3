@@ -204,6 +204,16 @@ INSERT INTO musical_track(id, name, duration, musical_album_id)
 VALUES (15, 'Always with Me, Always with You', 202, 10);
 
 
+INSERT INTO musical_album(id, name, year_of_release)
+VALUES (11, 'Shapeshifting', 2020);
+
+INSERT INTO musical_album_artist(musical_album_id, musical_artist_id)
+VALUES (11, 1);
+
+INSERT INTO musical_track(id, name, duration, musical_album_id)
+VALUES (17, 'Waiting', 156, 11);
+
+
 -- MUSIC COLLECTION AND RELATIONSHEEP WITH TRACKS
 INSERT INTO music_collection(id, name, year_of_release)
 VALUES (1, 'One Two Three Songs', 2020);
